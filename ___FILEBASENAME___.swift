@@ -10,9 +10,9 @@ import Foundation
 
 @testable import ___PROJECTNAME___
 
-class ___FILEBASENAMEASIDENTIFIER___: Mock {
+class ___FILEBASENAMEASIDENTIFIER___: NSObject, Mock {
 
-	var wasCalled: Bool = false
+	var function: Function = Function()
 
 	// Custom implementation here
 
